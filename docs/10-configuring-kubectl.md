@@ -19,7 +19,7 @@ curl -k --cacert ca.crt \
 {
   "major": "1",
   "minor": "28",
-  "gitVersion": "v1.28.3",
+  "gitVersion": "v1.31.2",
   "gitCommit": "a8a1abc25cad87333840cd7d54be2efaf31a3177",
   "gitTreeState": "clean",
   "buildDate": "2023-10-18T11:33:18Z",
@@ -61,9 +61,9 @@ kubectl version
 ```
 
 ```text
-Client Version: v1.28.3
+Client Version: v1.31.2
 Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
-Server Version: v1.28.3
+Server Version: v1.31.2
 ```
 
 List the nodes in the remote Kubernetes cluster:
@@ -74,8 +74,8 @@ kubectl get nodes
 
 ```
 NAME     STATUS   ROLES    AGE   VERSION
-node-0   Ready    <none>   30m   v1.28.3
-node-1   Ready    <none>   35m   v1.28.3
+node-0   Ready    <none>   30m   v1.31.2
+node-1   Ready    <none>   35m   v1.31.2
 ```
 
 Next: [Provisioning Pod Network Routes](11-pod-network-routes.md)

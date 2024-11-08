@@ -79,10 +79,10 @@ ls -loh downloads
 
 ```text
 total 584M
--rw-r--r-- 1 root  41M May  9 13:35 cni-plugins-linux-arm64-v1.3.0.tgz
--rw-r--r-- 1 root  34M Oct 26 15:21 containerd-1.7.8-linux-arm64.tar.gz
--rw-r--r-- 1 root  22M Aug 14 00:19 crictl-v1.28.0-linux-arm.tar.gz
--rw-r--r-- 1 root  15M Jul 11 02:30 etcd-v3.4.27-linux-arm64.tar.gz
+-rw-r--r-- 1 root  41M May  9 13:35 cni-plugins-linux-arm64-v1.6.0.tgz
+-rw-r--r-- 1 root  34M Oct 26 15:21 containerd-2.0.0-linux-arm64.tar.gz
+-rw-r--r-- 1 root  22M Aug 14 00:19 crictl-v1.31.1-linux-arm.tar.gz
+-rw-r--r-- 1 root  15M Jul 11 02:30 etcd-v3.4.34-linux-arm64.tar.gz
 -rw-r--r-- 1 root 111M Oct 18 07:34 kube-apiserver
 -rw-r--r-- 1 root 107M Oct 18 07:34 kube-controller-manager
 -rw-r--r-- 1 root  51M Oct 18 07:34 kube-proxy
@@ -112,7 +112,7 @@ kubectl version --client
 ```
 
 ```text
-Client Version: v1.28.3
+Client Version: v1.31.2
 Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
 ```
 
